@@ -25,10 +25,12 @@ export default function App() {
     } else {
         return (
             <>
-                <StatusBar animated translucent style="light" />
-                <ActionSheetProvider>
-                    <AppStack />
-                </ActionSheetProvider>
+
+           <StatusBar animated translucent style="dark" />
+           <ActionSheetProvider>
+           <AppStack />
+           </ActionSheetProvider>
+
             </>
         );
     }
